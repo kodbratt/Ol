@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Linq;
 using System.Reflection;
 
-namespace Ol.Web.Areas.HelpPage.ModelDescriptions
+namespace BeerShelf.Web.Areas.HelpPage.ModelDescriptions
 {
     internal static class ModelNameHelper
     {

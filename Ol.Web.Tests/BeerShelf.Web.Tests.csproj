@@ -9,7 +9,7 @@
     <ProjectGuid>{43FC78D5-17A7-452F-B9D6-C8A34BEF7DD6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Ol.Web.Tests</RootNamespace>
+    <RootNamespace>BeerShelf.Web.Tests</RootNamespace>
     <AssemblyName>Ol.Web.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -102,9 +102,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Ol.Web\Ol.Web.csproj">
+    <ProjectReference Include="..\Ol.Web\BeerShelf.Web.csproj">
       <Project>{EAD7D081-9851-4207-81BA-942FBD99B572}</Project>
-      <Name>Ol.Web</Name>
+      <Name>BeerShelf.Web</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

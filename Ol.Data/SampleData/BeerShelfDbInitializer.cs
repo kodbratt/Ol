@@ -1,15 +1,15 @@
-﻿using Ol.Model;
+﻿using BeerShelf.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ol.Data
+namespace BeerShelf.Data
 {
-    public class OlDbInitializer : System.Data.Entity.DropCreateDatabaseIfModelChanges<OlDbContext>
+    public class BeerShelfDbInitializer : System.Data.Entity.DropCreateDatabaseIfModelChanges<BeerShelfDbContext>
     {
-        protected override void Seed(OlDbContext dbcontext)
+        protected override void Seed(BeerShelfDbContext dbcontext)
         {
             var bottles = new List<Bottle>
             {

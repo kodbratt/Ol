@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Ol.Web.Models
+namespace BeerShelf.Web.Models
 {
     // Models returned by AccountController actions.
 

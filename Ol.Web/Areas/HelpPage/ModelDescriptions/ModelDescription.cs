@@ -1,6 +1,6 @@
 using System;
 
-namespace Ol.Web.Areas.HelpPage.ModelDescriptions
+namespace BeerShelf.Web.Areas.HelpPage.ModelDescriptions
 {
     /// <summary>
     /// Describes a type model.

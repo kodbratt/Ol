@@ -5,10 +5,10 @@ using System.Net.Http;
 using System.Text;
 using System.Web.Http;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Ol.Web;
-using Ol.Web.Controllers;
+using BeerShelf.Web;
+using BeerShelf.Web.Controllers;
 
-namespace Ol.Web.Tests.Controllers
+namespace BeerShelf.Web.Tests.Controllers
 {
     [TestClass]
     public class ValuesControllerTest

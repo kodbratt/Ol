@@ -5,9 +5,9 @@ using Microsoft.Owin;
 using Owin;
 
 
-[assembly: OwinStartup(typeof(Ol.Web.Startup))]
+[assembly: OwinStartup(typeof(BeerShelf.Web.Startup))]
 
-namespace Ol.Web
+namespace BeerShelf.Web
 {
     public partial class Startup
     {

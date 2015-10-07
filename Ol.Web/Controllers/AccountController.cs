@@ -13,11 +13,11 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OAuth;
-using Ol.Web.Models;
-using Ol.Web.Providers;
-using Ol.Web.Results;
+using BeerShelf.Web.Models;
+using BeerShelf.Web.Providers;
+using BeerShelf.Web.Results;
 
-namespace Ol.Web.Controllers
+namespace BeerShelf.Web.Controllers
 {
     [Authorize]
     [RoutePrefix("api/Account")]

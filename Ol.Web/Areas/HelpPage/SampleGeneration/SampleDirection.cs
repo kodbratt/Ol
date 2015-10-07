@@ -1,4 +1,4 @@
-namespace Ol.Web.Areas.HelpPage
+namespace BeerShelf.Web.Areas.HelpPage
 {
     /// <summary>
     /// Indicates whether the sample is used for request or response

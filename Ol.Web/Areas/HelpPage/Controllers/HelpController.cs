@@ -1,10 +1,10 @@
 using System;
 using System.Web.Http;
 using System.Web.Mvc;
-using Ol.Web.Areas.HelpPage.ModelDescriptions;
-using Ol.Web.Areas.HelpPage.Models;
+using BeerShelf.Web.Areas.HelpPage.ModelDescriptions;
+using BeerShelf.Web.Areas.HelpPage.Models;
 
-namespace Ol.Web.Areas.HelpPage.Controllers
+namespace BeerShelf.Web.Areas.HelpPage.Controllers
 {
     /// <summary>
     /// The controller that will handle requests for the help page.

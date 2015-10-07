@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using Newtonsoft.Json;
 
-namespace Ol.Web.Models
+namespace BeerShelf.Web.Models
 {
     // Models used as parameters to AccountController actions.
 

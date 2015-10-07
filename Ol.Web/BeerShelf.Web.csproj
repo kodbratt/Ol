@@ -11,7 +11,7 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Ol.Web</RootNamespace>
+    <RootNamespace>BeerShelf.Web</RootNamespace>
     <AssemblyName>Ol.Web</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
@@ -198,6 +198,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\BottlesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -276,6 +277,11 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Bottles\Create.cshtml" />
+    <Content Include="Views\Bottles\Delete.cshtml" />
+    <Content Include="Views\Bottles\Details.cshtml" />
+    <Content Include="Views\Bottles\Edit.cshtml" />
+    <Content Include="Views\Bottles\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -285,13 +291,13 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Ol.Data\Ol.Data.csproj">
+    <ProjectReference Include="..\Ol.Data\BeerShelf.Data.csproj">
       <Project>{291ab123-8d98-4766-b78a-9348dcfea3ad}</Project>
-      <Name>Ol.Data</Name>
+      <Name>BeerShelf.Data</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Ol.Models\Ol.Model.csproj">
+    <ProjectReference Include="..\Ol.Models\BeerShelf.Model.csproj">
       <Project>{caa8b18c-b24c-4d4a-bd41-bd73d4477ebc}</Project>
-      <Name>Ol.Model</Name>
+      <Name>BeerShelf.Model</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

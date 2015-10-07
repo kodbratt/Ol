@@ -2,9 +2,9 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Net.Http.Headers;
 using System.Web.Http.Description;
-using Ol.Web.Areas.HelpPage.ModelDescriptions;
+using BeerShelf.Web.Areas.HelpPage.ModelDescriptions;
 
-namespace Ol.Web.Areas.HelpPage.Models
+namespace BeerShelf.Web.Areas.HelpPage.Models
 {
     /// <summary>
     /// The model that represents an API displayed on the help page.

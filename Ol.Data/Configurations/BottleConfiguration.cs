@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ol.Data.Configurations
+namespace BeerShelf.Data.Configurations
 {
     class BottleConfiguration
     {

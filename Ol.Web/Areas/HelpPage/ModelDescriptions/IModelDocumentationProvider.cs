@@ -1,7 +1,7 @@
 using System;
 using System.Reflection;
 
-namespace Ol.Web.Areas.HelpPage.ModelDescriptions
+namespace BeerShelf.Web.Areas.HelpPage.ModelDescriptions
 {
     public interface IModelDocumentationProvider
     {

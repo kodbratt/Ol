@@ -11,10 +11,10 @@ using System.Net.Http.Headers;
 using System.Web.Http;
 using System.Web.Http.Controllers;
 using System.Web.Http.Description;
-using Ol.Web.Areas.HelpPage.ModelDescriptions;
-using Ol.Web.Areas.HelpPage.Models;
+using BeerShelf.Web.Areas.HelpPage.ModelDescriptions;
+using BeerShelf.Web.Areas.HelpPage.Models;
 
-namespace Ol.Web.Areas.HelpPage
+namespace BeerShelf.Web.Areas.HelpPage
 {
     public static class HelpPageConfigurationExtensions
     {

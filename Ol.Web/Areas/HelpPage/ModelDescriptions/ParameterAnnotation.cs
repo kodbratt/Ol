@@ -1,6 +1,6 @@
 using System;
 
-namespace Ol.Web.Areas.HelpPage.ModelDescriptions
+namespace BeerShelf.Web.Areas.HelpPage.ModelDescriptions
 {
     public class ParameterAnnotation
     {

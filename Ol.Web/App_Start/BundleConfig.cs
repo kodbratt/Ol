@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace Ol.Web
+namespace BeerShelf.Web
 {
     public class BundleConfig
     {

@@ -5,9 +5,9 @@ using System.Reflection;
 using System.Web.Http.Controllers;
 using System.Web.Http.Description;
 using System.Xml.XPath;
-using Ol.Web.Areas.HelpPage.ModelDescriptions;
+using BeerShelf.Web.Areas.HelpPage.ModelDescriptions;
 
-namespace Ol.Web.Areas.HelpPage
+namespace BeerShelf.Web.Areas.HelpPage
 {
     /// <summary>
     /// A custom <see cref="IDocumentationProvider"/> that reads the API documentation from an XML documentation file.

@@ -3,7 +3,7 @@ using System.Text;
 using System.Web;
 using System.Web.Http.Description;
 
-namespace Ol.Web.Areas.HelpPage
+namespace BeerShelf.Web.Areas.HelpPage
 {
     public static class ApiDescriptionExtensions
     {

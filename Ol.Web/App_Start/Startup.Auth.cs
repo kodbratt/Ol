@@ -8,10 +8,10 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Microsoft.Owin.Security.OAuth;
 using Owin;
-using Ol.Web.Providers;
-using Ol.Web.Models;
+using BeerShelf.Web.Providers;
+using BeerShelf.Web.Models;
 
-namespace Ol.Web
+namespace BeerShelf.Web
 {
     public partial class Startup
     {

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 
 
-namespace Ol.Model
+namespace BeerShelf.Model
 {
     public class Bottle
     {
